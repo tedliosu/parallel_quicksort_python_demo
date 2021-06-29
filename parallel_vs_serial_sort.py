@@ -42,7 +42,7 @@ from parallel_quicksort import parallel_quicksort
 # Length of each randomly generated string
 LENGTH_OF_STRING: Final = 20
 # Length of randomly generated string list
-LENGTH_OF_STRING_LIST: Final = 10000000
+LENGTH_OF_STRING_LIST: Final = 2000000
 
 ## END GLOBAL VARIABLES SECTION ##
 
