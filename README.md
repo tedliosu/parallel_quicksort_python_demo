@@ -75,6 +75,56 @@ Validating result of parallel version of quicksort...
 
 </pre>
 
+## Main Program Output on Machine with Core i7 4800MQ ##
+
+### Sorting A List Of Length 2 Million ###
+
+<pre>
+
+Initializing list copies to be sorted (this may take some time)...
+
+Generating reference sorted list using Python's "sorted" built-in function for
+    validating correctness of serial version and parallel version of quicksort... Done!
+
+Time to sort list of 2000000 strings where each string is 20 characters long...
+
+...using serial version of quicksort: 10.929015 seconds.
+
+...using parallel version of quicksort
+    (parallelized over a target of 8 processes): 9.357903 seconds.
+
+Validating result of serial version of quicksort...
+    Congratulations, expected and actual lists are equal!
+
+Validating result of parallel version of quicksort...
+    Congratulations, expected and actual lists are equal!
+
+</pre>
+
+### Sorting A List Of Length 10 Million ###
+
+<pre>
+
+Initializing list copies to be sorted (this may take some time)...
+
+Generating reference sorted list using Python's "sorted" built-in function for
+    validating correctness of serial version and parallel version of quicksort... Done!
+
+Time to sort list of 10000000 strings where each string is 20 characters long...
+
+...using serial version of quicksort: 66.533298 seconds.
+
+...using parallel version of quicksort
+    (parallelized over a target of 8 processes): 45.900663 seconds.
+
+Validating result of serial version of quicksort...
+    Congratulations, expected and actual lists are equal!
+
+Validating result of parallel version of quicksort...
+    Congratulations, expected and actual lists are equal!
+
+</pre>
+
 # Comments About Code in General
 
 - Please refer to the file descriptions written at the top of each file within
