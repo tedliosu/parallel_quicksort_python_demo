@@ -12,6 +12,8 @@
 ########################################################
 
 
+## BEGIN FUNCTIONS DECLARATIONS SECTION ##
+
 # Parameter details:
 # - a_list: list to be sorted in ascending order
 #           via serial quicksort; this function
@@ -51,7 +53,6 @@ def serial_quicksort(a_list):
         a_list.append(partitioning_element)
         a_list.extend(larger_than_list)
 
-
 # Parameter details:
 # - a_list: list to be partitioned into two parts: entries greater
 #           than "partitioner" and entries less than "partitioner";
@@ -82,4 +83,7 @@ def partition(a_list, no_larger_than_list, larger_than_list, partitioner):
             larger_than_list.append(element)
         else:
             no_larger_than_list.append(element)
+
+## END FUNCTIONS DECLARATIONS SECTION ##
+
 

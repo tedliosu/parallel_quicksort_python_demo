@@ -14,7 +14,7 @@
    correctly. Python's built-in "sorted" function is used to check the correctness of
    each implementation.
 
-5. You may tweak the `length_of_string` and `length_of_string_list` global variables within
+5. You may tweak the `LENGTH_OF_STRING` and `LENGTH_OF_STRING_LIST` global variables within
    the main "parallel_vs_serial_sort.py" file to see how each sorting algorithm/function
    operates under various different parameters. The ONLY stipulations on each of those global
    variables' value is that each of them must be a non-negative integer.

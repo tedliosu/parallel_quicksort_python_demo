@@ -13,10 +13,18 @@
 #
 ########################################################
 
+
+## IMPORTS SECTION ##
+
 # For parallelizing quicksort
 import multiprocessing
 # Personal implementation of serial partitioning and quicksort
 from serial_quicksort import serial_quicksort, partition
+
+## END IMPORTS SECTION ##
+
+
+## BEGIN FUNCTIONS DECLARATIONS SECTION ##
 
 # Parameter details:
 # - a_list: list to be sorted using parallel quicksort
@@ -139,5 +147,6 @@ def parallel_quicksort(a_list, sending_socket, current_processes_count,
         sending_socket.send(a_list)
         sending_socket.close()
 
+## END FUNCTIONS DECLARATIONS SECTION ##
 
 
