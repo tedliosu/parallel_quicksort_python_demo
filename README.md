@@ -107,7 +107,7 @@ Validating result of parallel version of quicksort...
   spawned process's parent process is presumably finishing receiving the sorted
   partitions of the array) to being terminated.  Unfortunately, due to my general
   lack of knowledge (as of right now) on how inter-process communication is
-  implemented with the `Pipe()` class under Python3's `multiprocessing` module,
+  implemented with the `Connection` class under Python3's `multiprocessing` module,
   I cannot confirm or deny my current speculations about the performance
   discrepancies.  
 
